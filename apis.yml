@@ -1,7 +1,26 @@
 aid: abe-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/abe-ai.png
 name: Abe AI
-description: Abe AI is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Abe AI was a conversational-AI platform for banks and credit unions, delivering
+  a financial virtual assistant (chatbot and voice) across web, mobile, SMS, and
+  smart-speaker channels so consumers could check balances, track spending, and
+  bank by natural language. Founded in Orlando, Florida and backed by Techstars,
+  Abe AI was acquired by Envestnet | Yodlee in 2019; its conversational-banking
+  technology was folded into Yodlee's fintech data platform. The abe.ai domain now
+  301-redirects to yodlee.com/fintech/conversational-ai and no longer operates an
+  independent developer or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/abe-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +28,21 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: envestnet-yodlee
+x-redirects-to: https://www.yodlee.com/fintech/conversational-ai
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Conversational AI
+- Financial Services
+- Banking
+- Chatbot
+- Virtual Assistant
+- Fintech
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/abe-ai-domain-security.yml
+- type: WellKnown
+  url: well-known/abe-ai-well-known.yml
 - type: Website
   url: https://abe.ai/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

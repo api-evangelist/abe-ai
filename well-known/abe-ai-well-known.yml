@@ -1,0 +1,24 @@
+generated: '2026-07-17'
+method: probed
+source: live probes of https://abe.ai/.well-known/* (host redirects to Envestnet | Yodlee)
+host: abe.ai
+paths:
+- path: /.well-known/security.txt
+  status: 403
+  file: null
+- path: /.well-known/openid-configuration
+  status: 403
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 403
+  file: null
+- path: /.well-known/api-catalog
+  status: 403
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 403
+  file: null
+notes: >-
+  No .well-known documents are served. The abe.ai host 301-redirects to
+  yodlee.com/fintech/conversational-ai; all probes returned 403 from the
+  edge. No 200 responses, so no raw files were saved.
