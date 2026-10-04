@@ -50,7 +50,7 @@ modified: '2026-07-17'
 tags:
 - Company
 - Conversational AI
-- Financial-Services
+- Financial Services
 - Banking
 - Chatbots
 - Virtual Assistant
@@ -65,6 +65,7 @@ tags_raw:
 - Virtual Assistant
 - Fintech
 - Acquired
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
