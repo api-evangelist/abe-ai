@@ -1,0 +1,20 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/abe-ai/integrations
+- https://zapier.com/apps/abe/integrations
+- https://n8n.io/integrations/abe-ai/
+- https://n8n.io/integrations/abe/
+- https://composio.dev/toolkits/abe-ai
+- https://monid.ai/tools/abe-ai
+checked:
+- https://composio.dev/toolkits/abe-ai
+- https://monid.ai/tools/abe-ai
+- https://n8n.io/integrations/abe-ai/
+- https://n8n.io/integrations/abe/
+- https://zapier.com/apps/abe-ai/integrations
+- https://zapier.com/apps/abe/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
